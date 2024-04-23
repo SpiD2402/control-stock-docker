@@ -1,0 +1,67 @@
+version: "3.9"
+services:
+  postgres14:
+    container_name: postgres_si
+    image: postgres:14-alpine
+    ports:
+      - "5532:5432"
+    environment:
+      POSTGRES_PASSWORD: 1235545
+      POSTGRES_DB: Portafolio1
+    volumes:
+      - data-postgres:/var/lib/postgresql/data
+    restart: always
+    networks:
+      - sistema_inventario
+
+  categoria:
+    container_name: msvc-categoria
+    build:
+      context: ./
+      dockerfile: ./Categoria/Dockerfile
+    ports:
+      - "8001:8001"
+    networks:
+      - sistema_inventario
+    depends_on:
+      - postgres14
+    restart: always
+
+
+  proveedor:
+    container_name: msvc-proveedor
+    build:
+      context: ./
+      dockerfile: ./Proveedor/Dockerfile
+    ports:
+      - "8002:8002"
+    networks:
+      - sistema_inventario
+    depends_on:
+      - postgres14
+    restart: always
+
+  producto:
+    container_name: msvc-producto
+    build:
+      context: ./
+      dockerfile: ./Producto/Dockerfile
+    ports:
+      - "8003:8003"
+    networks:
+      - sistema_inventario
+    depends_on:
+      - postgres14
+    restart: always
+
+
+networks:
+  sistema_inventario:
+    name: sistema_inventario
+    external: true
+
+volumes:
+  data-postgres:
+    name: data-postgres2
+    external: true
+

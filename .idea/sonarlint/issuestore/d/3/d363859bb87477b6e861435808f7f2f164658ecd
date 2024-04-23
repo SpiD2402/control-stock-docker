@@ -1,0 +1,15 @@
+
+¬
+java:S1488""dImmediately return this expression instead of assigning it to the temporary variable "responseBase".(§˜¶æúÿÿÿÿ8“‹ìñí1J$4ad0129f-060a-4e55-b9f4-8a75de564d59
+§
+java:S1488*"dImmediately return this expression instead of assigning it to the temporary variable "responseBase".(•–Ü8”‹ìñí1J$1df1e61f-e24f-470b-a1a7-5c22a8b24fd1
+¬
+java:S14881"dImmediately return this expression instead of assigning it to the temporary variable "responseBase".(Ó”±Íúÿÿÿÿ8çéÍÔî1J$0f154c85-a32a-43a5-ac5e-94fdcf9292b3
+£
+java:S1488N"`Immediately return this expression instead of assigning it to the temporary variable "response".(İÄÕ›8”‹ìñí1J$0395312e-8155-439d-83eb-b67c360810d6
+o
+java:S1602W",Remove useless curly braces around statement(Óÿé¬8¨‹ìñí1J$e2d8595d-5e54-49b3-8257-0b7f3c6dfab6
+‡
+java:S1128"jRemove this unused import 'org.springframework.web.method.annotation.MethodArgumentTypeMismatchException'.(â¹æ8´ô…Éï1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8´ô…Éï1

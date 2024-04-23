@@ -1,0 +1,5 @@
+
+—	java:S116"VRename this field "id_producto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûêì8€ôçï1J$a0becd40-4861-4cfd-a81d-94fd48abb084
+œ	java:S116"ZRename this field "tipo_movimiento" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Î»8‚ôçï1J$17cbe0e3-c5a7-43d6-b63c-839c7a1cf9ae
+q
+java:S1128"/Remove this unused import 'java.sql.Timestamp'.(èò½+8ŞßŒéï1J$ed66177e-9994-4a30-bb42-62b378fc5197
