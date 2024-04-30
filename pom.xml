@@ -21,6 +21,8 @@
         <module>Categoria</module>
         <module>Proveedor</module>
         <module>Producto</module>
+
+        <module>Cliente</module>
     </modules>
 
     <dependencies>

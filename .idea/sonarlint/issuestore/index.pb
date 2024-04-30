@@ -110,3 +110,27 @@ C
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+?
+Cliente/pom.xml,4\3\431ec7a9200ddfc46d8b7bf3f6f337492a7eb9bf
+q
+ACliente/src/main/java/com/example/cliente/ClienteApplication.java,1\d\1d9fbbe02dc72f738e7969d971a0dc3792f1cc97
+B
+Cliente/.gitignore,9\d\9ddbef8473d3ad834351b919c90e3b02daa52fbb
+s
+CCliente/src/main/java/com/example/cliente/entity/ClienteEntity.java,1\5\157e92f758234400573921231a98959bfd5e0eeb
+i
+9Cliente/src/main/java/com/example/cliente/util/Audit.java,7\9\794ccfe0c0d77aa9cdbdc3ca26b8fb91ec264921
+{
+KCliente/src/main/java/com/example/cliente/controller/ClienteController.java,e\5\e53b36d2ec7dea022c95a7439a09350a04428d4d
+m
+=Cliente/src/main/java/com/example/cliente/dao/ClienteDao.java,0\c\0cf71fe43ee81071fd70affdfefd105c5a4d2827
+u
+ECliente/src/main/java/com/example/cliente/service/ClienteService.java,d\7\d7b9642395bd9a91b9db4f4b68a7fe035890b994
+~
+NCliente/src/main/java/com/example/cliente/service/impl/ClienteServiceImpl.java,6\5\65de9b32b5c0b9bbf9eef2b784eac5653b465c1a
+y
+ICliente/src/main/java/com/example/cliente/util/response/ResponseBase.java,d\e\de23c965eb8b15463c149485bf07846e03ea4138
+z
+JCliente/src/main/java/com/example/cliente/util/request/RequestCliente.java,6\0\600e2950c569b553d63d6be4b18c70f828667839
+r
+BCliente/src/main/java/com/example/cliente/constants/Constants.java,6\b\6b8f7497897aa906988db942634b5b1dc0780731
