@@ -41,8 +41,8 @@ services:
       - postgres14
     restart: always
 
-  producto:
-    container_name: msvc-producto
+  producto-movimiento:
+    container_name: msvc-producto-movimiento
     build:
       context: ./
       dockerfile: ./Producto/Dockerfile

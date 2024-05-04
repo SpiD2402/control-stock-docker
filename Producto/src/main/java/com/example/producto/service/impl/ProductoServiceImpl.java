@@ -103,42 +103,14 @@ public class ProductoServiceImpl  implements ProductoService {
     @Override
     public ResponseBase findOneProducto(Long id) {
         Optional<ProductoEntity> producto = productoDao.findById(id);
-        if (producto.isPresent()) {
-            ResponseBase responseCategoria;
-            try {
-                responseCategoria = categoriaClientRest.findOneCategoria(producto.get().getId_categoria());
-            } catch (Exception e) {
+        if (producto.isPresent())
+        {
+            return  new ResponseBase(Constants.SUCCESS_CODE,Constants.SUCCESS_MESSAGE,producto);
 
-                log.error("Error al comunicarse con el servicio de categoría", e);
-                responseCategoria = new ResponseBase(500, "Servicio de categoría no disponible", Optional.empty());
-            }
-
-            ResponseBase responseProveedor;
-            try {
-                responseProveedor = proveedorClientRest.byOneProveedor(producto.get().getId_proveedor());
-            } catch (Exception e) {
-
-                log.error("Error al comunicarse con el servicio de proveedor", e);
-                responseProveedor = new ResponseBase(500, "Servicio de proveedor no disponible", Optional.empty());
-            }
-
-            List<Object> encontrado = new ArrayList<>();
-            if (responseCategoria != null && responseCategoria.getData().isPresent()) {
-                encontrado.add(responseCategoria.getData().get());
-            } else {
-                encontrado.add(null);
-            }
-
-            if (responseProveedor != null && responseProveedor.getData().isPresent()) {
-                encontrado.add(responseProveedor.getData().get());
-            } else {
-                encontrado.add(null);
-            }
-
-            return new ResponseBase(Constants.SUCCESS_CODE, Constants.SUCCESS_MESSAGE, Optional.of(List.of(producto.get(), encontrado)));
         }
+        return new ResponseBase(Constants.ERROR_CODE,Constants.NOT_FOUND_MESSAGE,Optional.of(List.of()));
 
-        return new ResponseBase(Constants.NOT_FOUND_CODE, Constants.NOT_FOUND_MESSAGE, Optional.of(List.of()));
+
     }
 
 

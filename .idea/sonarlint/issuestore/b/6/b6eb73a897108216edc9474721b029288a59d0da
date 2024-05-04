@@ -1,19 +1,19 @@
 
 ¬
-java:S1488 "dImmediately return this expression instead of assigning it to the temporary variable "responseBase".(Ÿùàëùÿÿÿÿ8‹¬•Œğ1J$96a3f2c3-8214-4ef2-87a7-f7358e47ad41
+java:S1488 "dImmediately return this expression instead of assigning it to the temporary variable "responseBase".(Ÿùàëùÿÿÿÿ8‹¬•Œğ1J$435fdca1-6227-4306-ae57-22a7d3036ec6
 §
-java:S1488'"dImmediately return this expression instead of assigning it to the temporary variable "responseBase".(÷¹¶ó8Œ¬•Œğ1J$034117e1-0eef-4932-b12c-6cc8a4f5b681
+java:S1488'"dImmediately return this expression instead of assigning it to the temporary variable "responseBase".(÷¹¶ó8Œ¬•Œğ1J$2c35212c-4593-419a-9352-675692b261bb
 §
-java:S14884"dImmediately return this expression instead of assigning it to the temporary variable "responseBase".(øê„ü8¬•Œğ1J$6544d3f1-c196-4e0b-befe-11202ee601aa
+java:S14884"dImmediately return this expression instead of assigning it to the temporary variable "responseBase".(øê„ü8¬•Œğ1J$29985cd2-92b4-4a4d-8b8b-da3c964f014a
 ¬
-java:S1488@"dImmediately return this expression instead of assigning it to the temporary variable "responseBase".(ŸÄşÌşÿÿÿÿ8¬•Œğ1J$3fd0e767-f1f7-4a47-b172-529287fcda0d
+java:S1488@"dImmediately return this expression instead of assigning it to the temporary variable "responseBase".(ŸÄşÌşÿÿÿÿ8¬•Œğ1J$5f29a407-8c57-4160-a544-ba2c0e64f38f
 ¬
-java:S1488G"dImmediately return this expression instead of assigning it to the temporary variable "responseBase".(ø¼´ÿÿÿÿÿ8¬•Œğ1J$656af3fb-51bc-43f8-a1da-4fa6a9ee5ea7
+java:S1488G"dImmediately return this expression instead of assigning it to the temporary variable "responseBase".(ø¼´ÿÿÿÿÿ8¬•Œğ1J$dd1f2708-7a20-4ab9-9cdb-153507e4844f
 §
-java:S1488N"dImmediately return this expression instead of assigning it to the temporary variable "responseBase".(à×Çé8¬•Œğ1J$cb19248b-1fed-4141-a598-bf55c6b0a188
+java:S1488N"dImmediately return this expression instead of assigning it to the temporary variable "responseBase".(à×Çé8¬•Œğ1J$6812b354-cb25-4a25-93a5-6e40ecec4691
 o
-java:S1602U",Remove useless curly braces around statement(Óÿé¬8·¬•Œğ1J$693dd241-92e3-4c4e-b4fb-43af82998071
+java:S1602U",Remove useless curly braces around statement(Óÿé¬8·¬•Œğ1J$0b7218dd-41a6-4d16-a7a3-f01999de8b62
 
-java:S1128"HRemove this unused import 'com.example.producto.entity.model.Proveedor'.(Æ²ÿÿÿÿÿÿ8¦ùŒğ1J$4b7fa938-33a6-45e5-8ffc-6a9cc601c806
+java:S1128"HRemove this unused import 'com.example.producto.entity.model.Proveedor'.(Æ²ÿÿÿÿÿÿ8¦ùŒğ1J$4050936e-1d7c-4a1a-b90d-5166d8410d0a
 s
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¦ùŒğ1J$fd41159a-d93b-4ce2-b729-ab935e206483
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¦ùŒğ1J$6031ad86-473d-4881-9565-ee5597cbfcd8

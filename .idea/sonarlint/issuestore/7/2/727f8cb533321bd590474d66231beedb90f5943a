@@ -1,8 +1,8 @@
 
-—	java:S116"VRename this field "id_producto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûêì8á«éÌî1J$bd8eb957-0be7-48cb-9814-05482c7ef21b
-ž	java:S116"WRename this field "id_categoria" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…šÖÑÿÿÿÿÿ8á«éÌî1J$be6d67b1-3582-4d54-8ee6-dec743b95e77
-ž	java:S116"WRename this field "id_proveedor" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÆÙòÿÿÿÿÿ8á«éÌî1J$d1769507-89ca-4b3d-a59e-1bf8a71e48a9
-Ÿ	java:S116"XRename this field "precio_compra" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìœ¿Éýÿÿÿÿ8â«éÌî1J$cf530ef9-6bfc-48c7-aea2-5a242e137f88
-ž	java:S116"WRename this field "precio_venta" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È—Â‡úÿÿÿÿ8â«éÌî1J$97073442-0658-4a13-8fc9-380f17861d14
+—	java:S116"VRename this field "id_producto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûêì8á«éÌî1J$b3438dbf-c61d-4d95-bba4-44d9aa41843a
+ž	java:S116"WRename this field "id_categoria" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…šÖÑÿÿÿÿÿ8á«éÌî1J$77f08f8e-4d47-46b3-aabe-4379e8e4559d
+ž	java:S116"WRename this field "id_proveedor" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÆÙòÿÿÿÿÿ8á«éÌî1J$b1982528-4b17-4d08-8e69-c9c0f21b1a03
+Ÿ	java:S116"XRename this field "precio_compra" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìœ¿Éýÿÿÿÿ8â«éÌî1J$1fe8ffd5-7e75-4af2-bd43-7362e7a67ac8
+ž	java:S116"WRename this field "precio_venta" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È—Â‡úÿÿÿÿ8â«éÌî1J$18171d42-ec68-49ee-9997-19da132d83c1
 n
-java:S1128"+Remove this unused import 'lombok.Builder'.(§’Ðß8„ã¥Ïî1J$49978ee0-c33c-4ca6-8ba7-5d9eb33e8d6e
+java:S1128"+Remove this unused import 'lombok.Builder'.(§’Ðß8„ã¥Ïî1J$531fb8f8-872d-426a-844b-e43761ffee6f
